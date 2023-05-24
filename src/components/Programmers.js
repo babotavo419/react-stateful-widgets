@@ -13,9 +13,6 @@ Find comments below to help you along.
 
 import React from 'react';
 
-// Use this variable ONLY to initialize a slice of state!
-// There is something in the JSX right now breaking this rule...
-// The export syntax is necessary for the testing library to be able to import the array.
 export const listOfAwesome = [
   { id: '1', name: 'Ada Lovelace' },
   { id: '2', name: 'Grace Hopper' },
